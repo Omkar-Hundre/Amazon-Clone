@@ -18,11 +18,8 @@ This project is a simple HTML and CSS clone of Amazon's website. There are no sp
 - Bootstrap
 
 ## 📸 Screenshots
-### Homepage
-![Homepage Screenshot](screenshots/screenshot.png)
-
 ### Product Search
-![Product Search GIF](screenshots/AmazonGif.gif)
+![Product Search GIF](Screenshot/AmazonGif.gif)
 
 ## 📫 Contact Information
 - GitHub: [Omkar Hundre](https://github.com/Omkar-Hundre)
