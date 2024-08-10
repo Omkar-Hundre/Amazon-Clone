@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/56a9acb51e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <img id="AmazonLogo" src="/Assets/Amazon_logo.png" alt="Amazon Logo">
+
+            <div id="Del_To_Ind">
+                <span class="material-symbols-outlined">location_on</span>
+                <p>Deliver to <br><b>India</b></p>
+            </div>
+
+            <div class="search">
+                <select name="pets" id="pet-select">
+                    <option value="">All</option>
+                    <option value="dog">All Departments</option>
+                    <option value="cat">Arts & Crafts</option>
+                    <option value="hamster">Automotive</option>
+                    <option value="parrot">Baby</option>
+                    <option value="spider">Beauty & Personal Care</option>
+                    <option value="goldfish">Goldfish</option>
+                    <option value="iguana">Home & Garden</option>
+                    <option value="lizard">Industrial & Scientific</option>
+                    <option value="octopus">Kindle Store</option>
+                    <option value="penguin">Office Products</option>
+                    <option value="salmon">Pet Supplies</option>
+                    <option value="trout">Shoes</option>
+                    <option value="turtle">Sports & Outdoors</option>
+                    <option value="whale">Toys & Games</option>
+                    <option value="yak">Video Games</option>
+                    <option value="zebra">Wireless</option>
+                    <option value="zebra">Electronics</option>
+                    <option value="zebra">Home & Kitchen</option>
+                    <option value="zebra">Office Products</option>
+                    <option value="zebra">Clothing, Shoes & Jewelry</option>
+                </select>
+                <div id="searchdiv">
+                    <input type="text" placeholder="Search for products, brands, or stores">
+                </div>
+                <div id="buttondiv">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="lang">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <img id="flag_logo" src="/Assets/USA_Flag.png" alt="USA_Flag">
+                        EN
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed">
+                            <path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#"><img src="/Assets/USA_Flag.png" alt="USA_Flag"> EN</a>
+                        <a href="#"><img src="/Assets/India_Flag.png" alt="India_Flag"> HI</a>
+                        <a href="#"><img src="/Assets/France_Flag.png" alt="France_Flag"> FR</a>
+                        <a href="#"><img src="/Assets/Spain_Flag.png" alt="Spain_Flag"> ES</a>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="hello">
+                <b>Hello, sign in</b>
+                <a href="#"><b>Accounts & Lists<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z"/></svg></b></a>
+            </div>
+
+            <div class="return">
+                <b>Returns</b>
+                <a href="#"><b>& Orders<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z"/></svg></b></a>
+            </div>
+
+            <div class="cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/></svg>
+                <p>Cart</p>
+            </div>
+        </section>
+        
+        <nav>
+            <ul>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg><b style="margin-left: 5px;">All</b></a></li>
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Registry</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Sell</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="banner">
+            <img src="/Assets/banner_1.jpg" alt="">
+            <div id="arrow">
+                <img src="/Assets/Left_arrow.png" alt="">
+                <img src="/Assets/Right_arrow.png" alt="">
+            </div>
+        </div>
+    </main>
+    <div class="content">
+        <div id="amain">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.&nbsp; <a href="#">Click here to go to amazon.in</a></div>
+        
+        <div class="secondSection">
+            
+            <div class="fourimg_box">
+                <p id="mainp">Gaming accessories</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B11.jpg" alt="">
+                    <img src="/Assets/Products/B12.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Headsets</p>
+                    <p style="font-size: 14px;">Keyboards</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B13.jpg" alt="">
+                    <img src="/Assets/Products/B14.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Computer mice</p>
+                    <p style="font-size: 14px;">Chairs</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+            
+            <div class="fourimg_box">
+                <p id="mainp">Refresh your space</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B21.jpg" alt="">
+                    <img src="/Assets/Products/B22.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Dining</p>
+                    <p style="font-size: 14px;">Home</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B23.jpg" alt="">
+                    <img src="/Assets/Products/B24.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Kitchen</p>
+                    <p style="font-size: 14px;">Health and Beauty</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Shop deals in Fashion</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B31.jpg" alt="">
+                    <img src="/Assets/Products/B32.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Jeans under $50</p>
+                    <p style="font-size: 14px;">Tops under $25</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B33.jpg" alt="">
+                    <img src="/Assets/Products/B34.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Dresses under $30</p>
+                    <p style="font-size: 14px;">Shoes under $50</p>
+                </div>
+                <a  href="#">See all deals</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Deals in PCs</p>
+                <img id="singleimage" src="/Assets/Products/B4.jpg" alt="">
+                <a  href="#">Shop now</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Toys under $25</p>
+                <img id="singleimage" src="/Assets/Products/B5.jpg" alt="">
+                <a  href="#">Shop now</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Fashion trends you like</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B61.jpg" alt="">
+                    <img src="/Assets/Products/B62.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Dresses</p>
+                    <p style="font-size: 14px;">Knits</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B63.jpg" alt="">
+                    <img src="/Assets/Products/B64.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Jackets</p>
+                    <p style="font-size: 14px;">Jewelry</p>
+                </div>
+                <a  href="#">Explore more</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Beauty steals under $25</p>
+                <img id="singleimage" src="/Assets/Products/B7.jpg" alt="">
+                <a  href="#">Shop now</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Easy updates for elevated spaces</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B81.jpg" alt="">
+                    <img src="/Assets/Products/B82.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Baskets & hampers</p>
+                    <p style="font-size: 14px;">Hardware</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B83.jpg" alt="">
+                    <img src="/Assets/Products/B84.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Accent furniture</p>
+                    <p style="font-size: 14px;">Wallpaper & paint</p>
+                </div>
+                <a  href="#">Shop home products</a>
+            </div>
+        </div>
+
+        <div class="thirdSection">
+            <div class="photoline">
+                <p>Best Seller in Cell Phones & Accessories</p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C11.jpg" alt="">
+                    <img src="/Assets/Products/C12.jpg" alt="">
+                    <img src="/Assets/Products/C13.jpg" alt="">
+                    <img src="/Assets/Products/C14.jpg" alt="">
+                    <img src="/Assets/Products/C15.jpg" alt="">
+                    <img src="/Assets/Products/C16.jpg" alt="">
+                    <img src="/Assets/Products/C17.jpg" alt="">
+                    <img src="/Assets/Products/C18.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+
+            <div class="photoline">
+                <p>Popular Gifts in Baby <a href="#">Shop now</a></p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C21.jpg" alt="">
+                    <img src="/Assets/Products/C22.jpg" alt="">
+                    <img src="/Assets/Products/C23.jpg" alt="">
+                    <img src="/Assets/Products/C24.jpg" alt="">
+                    <img src="/Assets/Products/C25.jpg" alt="">
+                    <img src="/Assets/Products/C26.jpg" alt="">
+                    <img src="/Assets/Products/C27.jpg" alt="">
+                    <img src="/Assets/Products/C28.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+
+        </div>
+
+        <div class="secondSection">
+            <div class="fourimg_box">
+                <p id="mainp">Gaming merchandise</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B91.jpg" alt="">
+                    <img src="/Assets/Products/B92.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Apparel</p>
+                    <p style="font-size: 14px;">Hats</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B93.jpg" alt="">
+                    <img src="/Assets/Products/B94.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Action figures</p>
+                    <p style="font-size: 14px;">Mugs</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Shop activity trackers and smartwatches</p>
+                <img id="singleimage" style="height: 270px;" src="/Assets/Products/B10.jpg" alt="">
+                <a  href="#">Shop now</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Warm & welcoming decor</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B111.jpg" alt="">
+                    <img src="/Assets/Products/B112.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Wreaths & garlands</p>
+                    <p style="font-size: 14px;">Outdoor decor</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B113.jpg" alt="">
+                    <img src="/Assets/Products/B114.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Pillows & throws</p>
+                    <p style="font-size: 14px;">Wall art & mirros</p>
+                </div>
+                <a  href="#">Shop more fall finds</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Great prices on shoes</p>
+                <img id="singleimage" src="/Assets/Products/B12(1).jpg" alt="">
+                <a  href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="thirdSection">
+            <div class="photoline">
+                <p>Best Sellers in Toys & Games</p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C31.jpg" alt="">
+                    <img src="/Assets/Products/C32.jpg" alt="">
+                    <img src="/Assets/Products/C33.jpg" alt="">
+                    <img src="/Assets/Products/C34.jpg" alt="">
+                    <img src="/Assets/Products/C35.jpg" alt="">
+                    <img src="/Assets/Products/C36.jpg" alt="">
+                    <img src="/Assets/Products/C37.jpg" alt="">
+                    <img src="/Assets/Products/C38.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+
+            <div class="photoline">
+                <p>Most widhed for in Video Games</p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C41.jpg" alt="">
+                    <img src="/Assets/Products/C42.jpg" alt="">
+                    <img src="/Assets/Products/C43.jpg" alt="">
+                    <img src="/Assets/Products/C44.jpg" alt="">
+                    <img src="/Assets/Products/C45.jpg" alt="">
+                    <img src="/Assets/Products/C46.jpg" alt="">
+                    <img src="/Assets/Products/C47.jpg" alt="">
+                    <img src="/Assets/Products/C48.jpg" alt="">
+                    <img src="/Assets/Products/C49.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+        </div>
+
+        <div class="secondSection">
+            <div class="fourimg_box">
+                <p id="mainp">Level up your gaming</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D11.jpg" alt="">
+                    <img src="/Assets/Products/D12.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">PC gaming</p>
+                    <p style="font-size: 14px;">Xbox</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D13.jpg" alt="">
+                    <img src="/Assets/Products/D14.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">PlayStation</p>
+                    <p style="font-size: 14px;">Nintendo Switch</p>
+                </div>
+                <a  href="#">Shop the latest in gaming</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Look your best this season</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D21.jpg" alt="">
+                    <img src="/Assets/Products/D22.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">For Her</p>
+                    <p style="font-size: 14px;">For Him</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D23.jpg" alt="">
+                    <img src="/Assets/Products/D24.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">For Teens</p>
+                    <p style="font-size: 14px;">For Kids</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Fantastic Finds for Home</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D31.jpg" alt="">
+                    <img src="/Assets/Products/D32.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Kitchen</p>
+                    <p style="font-size: 14px;">Home Decor</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D33.jpg" alt="">
+                    <img src="/Assets/Products/D34.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Dining</p>
+                    <p style="font-size: 14px;">Smart Home</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">A whole new way to work</p>
+                <img id="singleimage" style="height: 290px;" src="/Assets/Products/D4.jpg" alt="">
+                <a  href="#">Shop personal computers</a>
+            </div>
+        </div>
+
+        <div class="thirdSection">
+            <div class="photoline">
+                <p>Best Seller in Computer Accessories</p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C51.jpg" alt="">
+                    <img src="/Assets/Products/C52.jpg" alt="">
+                    <img src="/Assets/Products/C33.jpg" alt="">
+                    <img src="/Assets/Products/C54.jpg" alt="">
+                    <img src="/Assets/Products/C55.jpg" alt="">
+                    <img src="/Assets/Products/C56.jpg" alt="">
+                    <img src="/Assets/Products/C57.jpg" alt="">
+                    <img src="/Assets/Products/C58.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+
+            <div class="photoline">
+                <p>Best Sellers in Sports & Outdoors</p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C61.jpg" alt="">
+                    <img src="/Assets/Products/C62.jpg" alt="">
+                    <img src="/Assets/Products/C63.jpg" alt="">
+                    <img src="/Assets/Products/C64.jpg" alt="">
+                    <img src="/Assets/Products/C65.jpg" alt="">
+                    <img src="/Assets/Products/C66.jpg" alt="">
+                    <img src="/Assets/Products/C67.jpg" alt="">
+                    <img src="/Assets/Products/C68.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+        </div>
+
+        <div class="secondSection">
+            <div class="fourimg_box">
+                <p id="mainp">Player's paradise starts here</p>
+                <img id="singleimage" src="/Assets/Products/D51.jpg" alt="">
+                <a  href="#">Shop video games</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Have more fun with family</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B61.jpg" alt="">
+                    <img src="/Assets/Products/B62.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Outdoor Play Sets</p>
+                    <p style="font-size: 14px;">Learning Toys</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/B63.jpg" alt="">
+                    <img src="/Assets/Products/B64.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Action Figures</p>
+                    <p style="font-size: 14px;">Pretend Play Toys</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Upgrade your office furniture</p>
+                <img id="singleimage" src="/Assets/Products/D7.jpg" alt="">
+                <a  href="#">Shop now</a>
+            </div>
+
+            <div class="fourimg_box">
+                <p id="mainp">Score the top PC's & Accessories</p>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D71.jpg" alt="">
+                    <img src="/Assets/Products/D72.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Desktops</p>
+                    <p style="font-size: 14px;">Laptops</p>
+                </div>
+                <div id="twoimginarow">
+                    <img src="/Assets/Products/D73.jpg" alt="">
+                    <img src="/Assets/Products/D74.jpg" alt="">
+                </div>
+                <div id="twotextinarow">
+                    <p id="p1">Hard Drives</p>
+                    <p style="font-size: 14px;">PC Accessories</p>
+                </div>
+                <a  href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="thirdSection">
+            <div class="photoline">
+                <p>Best Seller in Home & Kitchen</p>
+                <div class="photolineImg">
+                    <img src="/Assets/Products/C71.jpg" alt="">
+                    <img src="/Assets/Products/C72.jpg" alt="">
+                    <img src="/Assets/Products/C73.jpg" alt="">
+                    <img src="/Assets/Products/C74.jpg" alt="">
+                    <img src="/Assets/Products/C75.jpg" alt="">
+                    <img src="/Assets/Products/C76.jpg" alt="">
+                    <img src="/Assets/Products/C77.jpg" alt="">
+                    <img src="/Assets/Products/C78.jpg" alt="">
+                    <img src="/Assets/Products/C79.jpg" alt="">
+                </div>
+                <img src="/Assets/right_arrow.png" id="photolineright" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="prefoot">
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <p>See personalized recommendations</p>
+        <button class="sign-in-button">Sign in</button>
+        <p>New customer? <a href="#">Start here.</a></p>
+        <br>
+        <hr>
+        <br>
+    </div>
+
+    <footer>
+        <a href="#" id="back_to_top">Back to top</a>
+        <div class="tempfoot">
+            <div class="listgroup">
+                <ul>
+                    <li id="head_of_list">Get to Know Us</li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Amazon Devices</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+    
+                <ul>
+                    <li id="head_of_list">Make Money with Us</li>
+                    <li><a href="#">Sell products on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Sell apps on Amazon</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Self-Publish with Us</a></li>
+                    <li><a href="#">Host an Amazon Hub</a></li>
+                    <li><a href="#">›See More Make Money with Us</a></li>
+                </ul>
+                
+                <ul>
+                    <li id="head_of_list">Amazon Payment Products</li>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+    
+                <ul>
+                    <li id="head_of_list">Let Us Help You</li>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates & Policies</a></li>
+                    <li><a href="#">Returns & Replacements</a></li>
+                    <li><a href="#">Manage Your Content and Devices</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+             
+            <hr id="hrid">
+
+            <div class="bottomselect">
+                <img src="/Assets/Amazon_logo.png" id="amazonbottomlogo" alt="">
+
+                <div class="bottomlang">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <img id="flag_logo" src="/Assets/USA_Flag.png" alt="USA_Flag">
+                            English
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed">
+                                <path d="M480-333 240-573l51-51 189 189 189-189 51 51-240 240Z"/>
+                            </svg>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#"><img src="/Assets/USA_Flag.png" alt="USA_Flag"> English</a>
+                            <a href="#"><img src="/Assets/India_Flag.png" alt="India_Flag"> Hindi</a>
+                            <a href="#"><img src="/Assets/France_Flag.png" alt="France_Flag"> French</a>
+                            <a href="#"><img src="/Assets/Spain_Flag.png" alt="Spain_Flag"> Spanish</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="usdbottom"><p>$ &nbsp;&nbsp; USD - U.S. Dolllar</p></div>
+                <span><img src="/Assets/USA_Flag.png" alt="USA_Flag"> United States</span>  
+            </div>    
+        </div>
+
+        <div class="temp">
+            <div class="listgroupbottom">
+                <ul>
+                    <li id="head_of_list_bottom">Amazon Music</li>
+                    <li><a href="#">Stream millions of songs</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Amazon Ads</li>
+                    <li><a href="#">Reach customers wherever they spend their time</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">6pm</li>
+                    <li><a href="#">Score deals on fashion brands</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">AbeBooks</li>
+                    <li><a href="#">Books, art & collectibles</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">ACX</li>
+                    <li><a href="#">Audiobook Publishing Made Easy</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Sell on Amazon</li>
+                    <li><a href="#">Start a Selling Account</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Amazon Business</li>
+                    <li><a href="#">Everything For Your Business</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">AmazonGlobal</li>
+                    <li><a href="#">Ship Orders Internationally</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Home Services</li>
+                    <li><a href="#">Experienced Pros Happiness Guarantee</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Amazon Web Services</li>
+                    <li><a href="#">Scalable Cloud Computing Services</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Audible</li>
+                    <li><a href="#">Listen to Books & Original Audio Performances</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Box Office Mojo</li>
+                    <li><a href="#">Find Movie Box Office Data</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Goodreads</li>
+                    <li><a href="#">Book reviews & recommendations</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">IMDb</li>
+                    <li><a href="#">Movies, TV & Celebrities</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">IMDbPro</li>
+                    <li><a href="#">Get Info Entertainment Professionals Need</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Kindle Direct Publishing</li>
+                    <li><a href="#">Indie Digital & Print Publishing Made Easy</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Prime Video Direct</li>
+                    <li><a href="#">Video Distribution Made Easy</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Shopbop</li>
+                    <li><a href="#">Designer Fashion Brands</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Woot!</li>
+                    <li><a href="#">Deals and Shenanigans</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Zappos</li>
+                    <li><a href="#">Shoes & Clothing</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Ring</li>
+                    <li><a href="#">Smart Home Security Systems</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">eero WiFi</li>
+                    <li><a href="#">Stream 4K Video in Every Room</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Blink</li>
+                    <li><a href="#">Smart Security for Every Home</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Neighbors App</li>
+                    <li><a href="#">Real-Time Crime & Safety Alerts</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">Amazon Subscription Boxes</li>
+                    <li><a href="#">Top subscription boxes – right to your door</a></li>
+                </ul>
+        
+                <ul>
+                    <li id="head_of_list_bottom">PillPack</li>
+                    <li><a href="#">Pharmacy Simplified</a></li>
+                </ul>
+            </div>
+
+            <div class="veryend">
+                <ul>
+                    <li><a href="#">Conditions of Use</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Consumer Health Data Privacy Disclosure</a></li>
+                    <li><a href="#">Your Ads Privacy Choices</a><img src="/Assets/ccpa.png" alt=""></li>
+                </ul>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+                <a id="portfolio" href="https://github.com/Omkar-Hundre">Check Out My Other Projects <b>-- Omkar Hundre</b></a>
+            </div>
+        </div>    
+    </footer>
+
+</body>
+</html>
